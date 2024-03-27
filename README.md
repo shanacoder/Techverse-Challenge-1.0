@@ -13,8 +13,6 @@ This challenge consists of four main sections:
 
 Each section covers essential topics to deepen your understanding and skills.
 
-## Getting Started
-
 # Repository Contribution Guide
 
 ## Fork the Repository
@@ -207,7 +205,7 @@ Choose a programming language of your choice from the provided options. Let's as
 </details>
 
 
-## Data Structures and Algorithms (DSA)
+## Data Structures and Algorithms (DSA-In the choosen language)
 
 <details>
 <summary>Arrays:</summary>
@@ -288,7 +286,7 @@ Choose a programming language of your choice from the provided options. Let's as
 </details>
 
 
-## Algorithm Implementation
+## Algorithm Implementation(In the choosen language)
 
 
 <details>
@@ -360,7 +358,7 @@ Choose a programming language of your choice from the provided options. Let's as
 
 </details>
 
-## Frameworks
+## Frameworks(In the respective framework language)
 <details>
 <summary>Django</summary>
 
