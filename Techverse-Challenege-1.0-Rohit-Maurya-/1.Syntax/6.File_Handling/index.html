@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Handling in JavaScript</title>
+</head>
+<body>
+    <input type="file" id="fileInput">
+    <script>
+        const fileInput = document.getElementById('fileInput');
+        fileInput.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                console.log('File content:', event.target.result); // Log file content to console
+            };
+            reader.readAsText(file);
+        });
+    </script>
+</body>
+</html>
